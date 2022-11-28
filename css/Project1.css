@@ -1,0 +1,628 @@
+html, body {
+    margin:0;
+    padding:0;
+    
+}
+.logo{
+    margin-left: 100px;
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+
+.container{
+    height: 100px;
+    padding: 0;
+    display: flex;
+    background-color: black;
+
+}
+.icon{
+    background-color:black;
+    margin-left: 300px;
+    padding: 5px;
+    
+
+}
+
+.envy{
+    margin-left: 18px;
+    height: 30px;
+    width: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    left: 20px;
+}
+.plus{
+    margin-left: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.twit{
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+.face{
+    size: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    width: 30px;
+    bottom: 10px;
+    
+}
+.fab{
+    margin-left: 20px;
+    font-size: 13px;
+}
+    
+.list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color:#dd9933 ;
+    background-color: black;
+    margin-top: 30px;
+    margin-right:30px;
+    font-size: 13px;
+}
+.button{
+    background-color:#dd9933 ;
+    color: white;
+    border: none;
+    padding: 2px;
+    font-size: 9px;
+    height: 23px;
+    width:80px ;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+.top:hover{color: white;}
+.head:hover{color: white;}
+.fan:hover{color: white;}
+.life:hover{color: white;}
+.music:hover{color: white;}
+.travel:hover{color: white;}
+.button:hover{background-color: black;}
+.another{
+    height: 18px;
+    display: flex;
+    background-color:#eeeeee;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 14px;
+    padding: 5px;
+
+}
+.me:hover{color: #dd9933;}
+.calender:hover{color: #dd9933;}
+.hidden{
+    display: none;
+    border-bottom-width: 0;
+    border-bottom: oldlace;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+.covid:hover{color: #dd9933;}
+.event:hover{color: #dd9933;}
+.feautures:hover{color: #dd9933;}
+.human:hover{color: #dd9933;}
+.newswire:hover{color: #dd9933;}
+.opinion:hover{color: #dd9933;}
+.un:hover{color: #dd9933;}
+.podcast:hover{color: #dd9933;}
+.countries:hover .hidden{
+    display: block;
+}
+.bold{
+    
+    margin-left: 300px;
+    padding-top: 70px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.next{
+    padding-left: 130px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+.stone{
+    text-align: center;   
+    color: cadetblue;
+    position: fixed;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 150px;
+    
+    
+}
+.girl{
+    position: fixed;
+    display: grid;
+    box-shadow: black 0px 0px 2px 1px ;
+    gap: 2px;
+    
+    background-color: white;
+    margin-top: 5px;
+    list-style-type: none;
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    justify-content: left;
+}
+.girl{
+    display: none;
+}
+.plus:hover .girl{
+   display: block; 
+}
+
+.news{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.subscribe{
+    margin-left:310px ;
+    padding: 0 40px;
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    background-color:#dd9933 ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.mood{
+    display:flex;
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.better{
+    display: flex;
+    padding-left: 150px;
+}
+.ene{
+    position: relative;
+}
+.eke{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 60px;
+    top: 0px;
+     padding-top: 20px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 150px;
+}
+.eke{
+    display: none;
+}
+.ene:hover .eke{
+    display: block;
+    transition: 2s 2s;
+}
+.rear{
+    position: relative;
+}
+.steve{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 60px;
+    top: 0px;
+     padding-top: 20px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 150px;
+}
+.steve{
+    display: none;
+}
+.rear:hover .steve{
+    display: block;
+}
+.corn{
+    position: relative;
+}
+.maize{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding-left: 30px;
+    top: 0px;
+    padding-top: 80px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 90px;
+    width: 215px; 
+}
+.maize{
+    display: none;
+}
+.corn:hover .maize{
+    display: block;
+}
+.wave{
+    position: relative;
+}
+.wind{
+    display: none;
+}
+.wave:hover .wind{
+    display: block;
+}
+.wind{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding-left: 30px;
+    top: 0px;
+    padding-top: 80px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 90px;
+    width: 215px;  
+}
+.china{
+    position: relative;
+}
+.ghana{
+    display: none;
+}
+.china:hover .ghana{
+    display: block;
+}
+.ghana{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding-left: 30px;
+    top: 0px;
+    padding-top: 80px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 90px;
+    width: 215px;   
+}
+.isee{
+    position: relative;
+}
+.amen{
+    display: none;
+}
+.isee:hover .amen{
+    display: block;
+}
+.amen{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 60px;
+    top: 0px;
+    padding-top: 20px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 150px;
+}
+.mali{
+    position: relative;
+}
+.gabon{
+    display: none;
+}
+.mali:hover .gabon{
+    display: block;
+}
+.gabon{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 60px;
+    top: 0px;
+    padding-top: 20px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 150px;  
+}
+.italy{
+    position: relative;
+}
+.german{
+    display: none;
+}
+.italy:hover .german{
+    display: block;
+}
+.german{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding-left: 30px;
+    top: 0px;
+    padding-top: 80px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 90px;
+    width: 215px; 
+}
+.akwa{
+    position: relative;
+}
+.awka{
+    display: none;
+}
+.akwa:hover .awka{
+    display: block;
+}
+.awka{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding-left: 30px;
+    top: 0px;
+    padding-top: 80px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 90px;
+    width: 215px;    
+}
+.amesi{
+    position: relative;
+}
+.uga{
+    display: none;
+}
+.amesi:hover .uga{
+    display: block;
+    transition-timing-function: linear;
+    
+}
+.uga{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding-left: 30px;
+    top: 0px;
+    padding-top: 80px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 90px;
+    width: 215px;
+    transition: 5s;    
+}
+.feauture{
+    display: flex;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.two{
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.one{
+    padding-left: 60px;
+    padding-bottom: 50px;
+    }
+.letter{
+    display: flex;
+}
+.text{
+    padding: 30px;
+}
+.book{
+    padding: 30px;
+}
+.wrapper{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 180px;
+}
+.abua{
+padding-left: 30px;
+}
+.ato{
+padding-left: 30px;
+}
+.ano{
+padding-left: 20px;
+}
+.tick{
+    position: relative;
+    text-align: center;
+    color: white;
+    background: rgba(76, 175, 80, 0.3);
+       
+}
+.bucket{
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  background: rgba(0, 0, 0, 0.281);
+  height: 280px;
+  width: 260px;
+  
+
+  }
+  
+    
+
+.bus{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bus-one{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last{
+    width: 130px;
+    height: 35px;
+    color: white;
+    background: transparent;
+    border-color: white;
+    
+}
+.last:hover{
+    background-color: white;
+    color: black;
+}
+.move{
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  background: rgba(0, 0, 0, 0.281);
+  height: 280px;
+  width: 260px;
+   
+}
+.full{
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    background: rgba(0, 0, 0, 0.281);
+    height: 280px;
+    width: 260px;
+    
+}
+.turn{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    background: rgba(0, 0, 0, 0.281);
+    height: 280px;
+    width: 260px;
+  
+}
+.headlines{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding-left: 40px;
+    margin-right: 60px;
+}
+.grid-item{
+    background-color: white;
+    box-shadow: black 0 0.40px 8px 0.40px ;
+}
+.standard{
+    padding: 20px;
+}
+.december{
+    padding: 20px;
+}
+.cover{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding-left: 50px;
+    margin-right: 60px;
+    margin-top: 20px;
+    background-color: white;
+}
+.thing{
+    background-color: white;
+    box-shadow: black 0 0.40px 8px 0.40px ;  
+}
+.all{
+    width: 357px;
+    height: 270px;
+    background-color: wheat;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: black 0 0.40px 8px 0.40px ;
+    
+}
+.layout{
+    gap: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+           
+}
+#footer{
+    display: flex;
+    padding-left: 290px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    height: 300px;
+}
+.temple{
+    padding: 20px;
+    height: 600px;
+    width: 500px;
+    color: #ffffff;
+    padding-right: 20px;
+}
+.about{
+    color:  #dd9933;
+    list-style-type: none;
+    gap: 50px;
+    
+}
+.name:hover{
+    color: white;
+}
+.age:hover{color: white;}
+.limit:hover{color: white;}
+.cake:hover{color: white;}
+
+
+
+.cook{
+    text-align: center;
+    color: white;
+    background-color: #dd9933;
+    padding: 10px;
+}
+.partner{
+    background-color: transparent;
+    color:#dd9933; 
+    border: none;
+}
+.agency{
+    background-color: #dd9933;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px; 
+    border-radius: 2px;
+}
+.agency:hover{
+    background-color: black;
+}
+.log{
+    padding: 20px;
+}
+
